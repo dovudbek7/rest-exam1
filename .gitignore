@@ -1,0 +1,34 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+env/
+venv/
+*.env
+
+# Django REST Framework
+*.migrations/
+
+# Media
+media/
+
+# Static files
+staticfiles/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
