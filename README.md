@@ -2,6 +2,13 @@
 
 This is a basic Django REST project setup for building APIs with Django REST Framework. This project serves as a foundation for creating RESTful APIs using Django.
 
+
+<img src="https://www.djangoproject.com/m/img/logos/django-logo-negative.png" width="100">
+
+### Project description
+
+This project is **First exam in django rest** where users can view CRUD and filters for category and product using Django REST Framework.
+
 ## Features
 
 - Basic Django project structure
@@ -9,12 +16,7 @@ This is a basic Django REST project setup for building APIs with Django REST Fra
 - `.gitignore` file to exclude unnecessary files
 - Initial commit for a clean start
 
-## Prerequisites
 
-Before you start, make sure you have the following installed:
-
-- [Python](https://www.python.org/downloads/)
-- [pip](https://pip.pypa.io/en/stable/)
 
 ## Installation
 
