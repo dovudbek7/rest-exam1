@@ -1,34 +1,38 @@
+
+---
+
+### 3. **Create a `.gitignore` File**
+
+A standard `.gitignore` file for a Django project would look like this:
+
+```plaintext
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+env/
+
 # Django
 *.log
 *.pot
 *.pyc
-__pycache__/
+*.sqlite3
+
+# Environment variables
+.env
+
+# Gitignore compiled python files
+*.py[cod]
+
+# Database
 db.sqlite3
-env/
-venv/
-*.env
 
-# Django REST Framework
-*.migrations/
+# Ignore media files
+/media
 
-# Media
-media/
-
-# Static files
-staticfiles/
-
-# IDE/editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.sublime-workspace
-*.sublime-project
-
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Backup files
-*.bak
-*.tmp
+# Ignore static files
+/static
